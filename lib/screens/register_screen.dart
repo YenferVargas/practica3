@@ -15,7 +15,7 @@ class RegisterScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Aquí puedes añadir tus campos de texto para el registro
+              
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Correo electrónico',
@@ -30,11 +30,11 @@ class RegisterScreen extends StatelessWidget {
                   border: OutlineInputBorder(),
                 ),
               ),
-              // Añade más campos si necesitas más información para el registro
+              
               const SizedBox(height: 24),
               ElevatedButton(
                 onPressed: () {
-                  // Lógica para registrarse
+                
                 },
                 child: const Text('Registrarte'),
               ),

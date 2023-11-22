@@ -6,7 +6,7 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[50], // Un suave color de fondo relacionado con el café
+      backgroundColor: Colors.brown[50], 
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -18,11 +18,11 @@ class WelcomeScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
-                  color: Colors.brown, // Color del texto en tono café
+                  color: Colors.brown, 
                 ),
               ),
               SizedBox(height: 20),
-              Image.asset('assets/images/coffee_cup.png'), // Asegúrate de tener esta imagen en tus assets
+              Image.asset('assets/images/coffee_cup.png'), 
               SizedBox(height: 20),
               Text(
                 'Disfruta de nuestras especialidades y momentos con sabor a café.',
@@ -35,11 +35,11 @@ class WelcomeScreen extends StatelessWidget {
               SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {
-                  // Aquí puedes definir una acción al presionar el botón, como cerrar sesión o regresar al inicio
+                  
                 },
                 style: ElevatedButton.styleFrom(
-                  primary: Colors.brown, // Color de fondo del botón
-                  onPrimary: Colors.white, // Color del contenido del botón
+                  primary: Colors.brown, 
+                  onPrimary: Colors.white, 
                 ),
                 child: Text('Explorar'),
               ),

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'login_screen.dart'; // Asegúrate de tener este archivo en la carpeta screens
-import 'register_screen.dart'; // Asegúrate de tener este archivo en la carpeta screens
+import 'login_screen.dart'; 
+import 'register_screen.dart'; 
 
 class LoginCafeScreen extends StatelessWidget {
   const LoginCafeScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    // Define tu variable de color plomo aquí
-    const Color colorPlomo = Colors.grey; // Ajusta el tono de gris según necesites
+    
+    const Color colorPlomo = Colors.grey;
 
     return Scaffold(
       body: Padding(
@@ -54,7 +54,7 @@ class LoginCafeScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 20),
                     minimumSize: const Size(double.infinity, 50),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30), // Aquí se define el borde redondeado
+                      borderRadius: BorderRadius.circular(30), 
                     ),
                   ),
                   child: const Text(
@@ -76,7 +76,7 @@ class LoginCafeScreen extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 20),
                     minimumSize: const Size(double.infinity, 50),
                     shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(30), // Aquí se define el borde redondeado
+                      borderRadius: BorderRadius.circular(30), 
                     ),
                   ),
                   child: const Text(

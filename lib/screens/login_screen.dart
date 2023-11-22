@@ -15,7 +15,7 @@ class LoginScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Aquí puedes añadir tus campos de texto para el inicio de sesión
+              
               TextFormField(
                 decoration: const InputDecoration(
                   labelText: 'Correo electrónico',
@@ -33,7 +33,7 @@ class LoginScreen extends StatelessWidget {
               const SizedBox(height: 24),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.pushReplacement( // Usamos pushReplacement para reemplazar la pantalla actual completamente
+                  Navigator.pushReplacement( 
                     context,
                     MaterialPageRoute(builder: (context) => const WelcomeScreen()),
                   );
